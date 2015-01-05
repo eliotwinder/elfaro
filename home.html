@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>El Farolito</title>
+<link href="sources/slick.css" rel="stylesheet" type="text/css">
+<link href="farostyles.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script type="text/javascript" src="sources/slick.min.js"></script>
+<script type="text/javascript" src="faro.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js"></script>
+<script>
+$("alabama").click(function(){
+	$("#googlemaps").attr("src", "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3154.5928118302563!2d-122.41097939999999!3d37.7526959!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0000000000000000%3A0x04d563cdb72ff9be!2sTaquerias+El+Farolito!5e0!3m2!1sen!2sus!4v1420433432425")
+});
+</script>
+
+
+</head>
+
+<body>
+    <div class="container">
+    	<header>
+        	<div class="topspace">
+            
+            </div>
+        	<ul>
+            	<li>home</li><li
+                >locations</li><li
+                >menu</li><li id='logo'
+                >logo</li><li
+                >historia</li><li
+                >new</li><li
+                >catering</li></ul>
+        </header>
+        <div class="fade">
+                <div><div class="image"><img src="images/burrito.jpeg" alt=""/></div></div>
+                <div><div class="image"><img src="images/shrimpfajitas.jpeg" alt=""/></div></div>
+                <div><div class="image"><img src="images/tacosalad.jpeg" alt=""/></div></div>
+        </div>
+        
+   	  	<div id="locationlist">
+        	<p>locations</p>
+            <ul>
+            	<li>24th and mission</li>
+                <li id="alabama">24th and alabama</li>
+                <li>excelsior</li>
+                <li>oakland</li>
+                <li>south san francisco</li>
+                <li>santa rosa</li>
+                <li>rohnert park</li>
+            </ul>
+        </div><div
+        id="locationmap"><div id="googlemaps">
+        	<iframe id="googmap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25247.36244417876!2d-122.44229445000002!3d37.72154845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808f7e85083a20d1%3A0x3e481c1aa5763c7d!2sTaquerias+El+Farolito!5e0!3m2!1sen!2sus!4v1420430888585" width="100%" height="400" frameborder="0" style="border:0"></iframe>
+        </div></div>
+	</div>
+    
+        
+</body>
+</html>
+   
+            

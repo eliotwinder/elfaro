@@ -1,0 +1,202 @@
+@charset "UTF-8";
+html {
+	url(images/lighthouse-faron-spanish-english.png);
+	background: url(images/lighthouse-faron-spanish-english.png) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	list-style-type: none;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	vertical-align: middle;
+	display: inline;
+	min-width: 880px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+.container {
+	width: 900px;
+	height: 665px;
+	position: relative;
+	left: 50%;
+	margin-top: 0;
+	margin-right: auto;
+	margin-left: -440px;
+	margin-bottom: 0;
+	overflow-x: visible;
+	border-color: #000000;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+header {
+	display: block;
+	position: relative;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+header ul li {
+	display: inline-block;
+	width: 110px;
+	margin: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	height: 100%;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 38px;
+}
+header ul {
+	position: relative;
+	display: block;
+	width: 100%;
+	margin-top: 0;
+	margin-right: 0px;
+	margin-left: 0px;
+	margin-bottom: 0;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	height: 100%;
+	vertical-align: middle;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	border-style: ridge;
+	border-color: hsla(0,0%,2%,1.00);
+	background-color: hsla(0,0%,0%,1.00);
+	color: hsla(0,0%,100%,1.00);
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+.photoscroll {
+	width: 100%;
+	height: 225px;
+	position: relative;
+}
+.container .photoscroll img {
+	width: 100%;
+	height: 100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	display: inline-block;
+}
+.aside {
+	position: absolute;
+	top: 20px;
+	left: 18px;
+	background-color: #FFF8E7;
+	height: 180px;
+}
+body {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+.topspace {
+	height: 110px;
+}
+#logo {
+	width: 225px;
+}
+ul li img {
+	height: 425px;
+	width: 900px;
+	display: inline;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+div .image img {
+	width: 900px;
+	height: 425px;
+}
+
+.slick-dots li button:before {
+	color: #fff;
+	font-size: 30px;
+	opacity: 1;
+}
+.slick-dots li.slick-active button:before {
+	color: hsla(359,100%,76%,1.00);
+}
+#locations {
+	color: hsla(0,0%,48%,1.00);
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 0;
+	display: block;
+}
+#locations div {
+	margin: 0;
+	display: inline-block;
+	width: 50%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+#locationlist {
+	height: 400px;
+	display: inline-block;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	width: 50%;
+	vertical-align: top;
+	text-align: center;
+}
+.container #locations #locationmap {
+	width: 450px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+#mapholder {
+	width: 50%;
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+.fade, .slick-initialized, .slick-slider {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+#locationmap {
+	height: 400px;
+	display: inline-block;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	width: 50%;
+}
+ul {
+	list-style-type: none;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
