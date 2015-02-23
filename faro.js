@@ -74,9 +74,20 @@ $("#locationlist > ul > li").click(function(){
 	$("#googmap").attr("src", fullMapURL)
 });
 
+//navigation links
+	//hide maps
+	$("#maps").hide();
 
+	$("#homelink").click(function(){
+		$(".fade").show();
+		$("#maps").hide();
+	});
+	$("#locationlink").click(function(){
+		$("#maps").show();
+		$(".fade").hide();
+	}); //end click locationlink
+	
 });
-
 
 
 
